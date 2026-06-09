@@ -128,6 +128,53 @@ pre {
   gap: 10px;
 }
 
+.config-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.config-panel-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.config-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.config-actions button {
+  margin: 0;
+}
+
+.config-share-status {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.config-share-url {
+  flex-basis: 100%;
+  min-width: 0;
+  height: 34px;
+  font-family: monospace;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--button-bg);
+  color: var(--text-color);
+}
+
+.config-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .config-row {
   display: flex;
   align-items: center;
